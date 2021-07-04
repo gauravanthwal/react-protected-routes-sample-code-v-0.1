@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.data-box{
+  border: 1px sosid #000;
+}
+
+.avatar{
+  width: 100px;
+  border: 4px solid #d85cd2;
+  border-radius: 50%;
+}
+.avatar-box{
+  margin: 5px auto;
+}
+.border{
+  background-color: #D62AD0;
+  color: #fff;
+  border: 5px solid #CD113B;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: .3s;
+}
+.border:hover{
+  background-color: #CD113B;
+}
